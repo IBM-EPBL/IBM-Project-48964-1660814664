@@ -1,0 +1,6 @@
+image,image_path,xmin,ymin,xmax,ymax,label,confidence,x_size,y_size
+0_17.jpg,C:\Users\MadhuVasanth1606\Desktop\yolo_structure\Data\Source_Images\Test_Images\0_17.jpg,113,38,184,157,1,0.47718656063079834,294,222
+ISIC_0000001.jpg,C:\Users\MadhuVasanth1606\Desktop\yolo_structure\Data\Source_Images\Test_Images\ISIC_0000001.jpg,235,260,759,528,5,0.6427581310272217,1022,767
+ISIC_0000001.jpg,C:\Users\MadhuVasanth1606\Desktop\yolo_structure\Data\Source_Images\Test_Images\ISIC_0000001.jpg,235,260,759,528,3,0.37372148036956787,1022,767
+ISIC_0025867.jpg,C:\Users\MadhuVasanth1606\Desktop\yolo_structure\Data\Source_Images\Test_Images\ISIC_0025867.jpg,70,49,259,212,4,0.5404965877532959,600,450
+ISIC_6654875.jpg,C:\Users\MadhuVasanth1606\Desktop\yolo_structure\Data\Source_Images\Test_Images\ISIC_6654875.jpg,59,101,427,417,1,0.4625835716724396,512,512
