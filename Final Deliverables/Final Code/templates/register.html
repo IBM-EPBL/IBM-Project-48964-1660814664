@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Skinnovation</title>
+<link rel="stylesheet" href="../static/css/sti.css">
+</head>
+<body>
+
+   
+
+<header>
+    <a href="#" class="logo">Skinnovation</a>
+    <ul>
+<li><a href="{{ url_for('index')}}" class="active">Home</a></li>
+<li><a href="{{ url_for('login')}}">Login</a></li>
+<li><a href="{{ url_for('register')}}">Register</a></li>
+<li><a href="{{ url_for('prediction')}}">Prediction</a></li>
+</ul>
+</header>
+
+
+
+
+
+
+<form action="{{url_for('afterreg')}}" method="post">
+    
+<div class="container">
+
+<h1 class="reg">Registration</h1>
+<hr/>
+
+<div class="name"><label  for="fn"><b>First Name</b></label>
+    <input type="text" placeholder="First Name" name='fn' id='fn' required/>
+
+    <label for="eml"><b>Enter Email ID</b></label>
+    <input type="email" placeholder="Enter Email ID" name="_id" required/>
+    
+    <label for="psw"><b>Password</b></label>
+    
+    <input type="password" placeholder="Enter Password" name="psw"  required/>
+    
+    <hr/>
+    <button class="registerbtn" type="submit">Register</button>{{pred}}
+    </form><footer>
+    <p class="account">Already have an Account? <a href="{{ url_for('login')}}">Login Here</a></p>
+    </footer></div>
+
+
+
+
+</body>
+
+</html>
